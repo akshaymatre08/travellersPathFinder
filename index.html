@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sketch</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Cookie&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <script src="p5.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+  </head>
+
+  <body>
+    <div class="Heading">
+      <h1>
+        Welcome to Traveller's Path Finder!!
+      </h1>
+      <!--<img src="https://webstockreview.net/images/clipart-doctor-suitcase-19.gif" alt="" >-->
+    </div>
+    <div class="Select-Cities">
+      <select class="cities" name="ChooseCities" id="uiCities">
+          <option value="" disabled="disabled" selected="selected">Select Cities</option>
+      </select>
+
+      <input type="button" class="select-button" onclick="getOption()" value="Select">
+      <input type="button" class="select-button" onclick="getAll()" value="Select All">
+    </div>
+    <div class = "paths">
+      <p class="initial-path">00</p>
+      <p class="final-path">00</p>
+    </div>
+    <div class="final-root" >
+      <p></p>
+    </div>
+    
+    <script type ="text/javascript">
+      window.onload = function() {
+      what();
+      function what(){
+          document.querySelector(".initial-path").innerHTML = "Initial Path : " + 00000000;
+          document.querySelector(".final-path").innerHTML = "Final Path : " + 00000000;
+      };
+     }
+  </script>
+    <script src="Cities.js"></script>
+    <script src="TSP2.js"></script>
+    <script src="Genetic.js"></script>
+  </body>
+</html>
+
