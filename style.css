@@ -12,7 +12,7 @@ canvas {
   position: absolute;
   left: 460px;
   top: 0px;
-  font-family: 'Dancing Script', cursive;
+  font-family: Serif;
   color: white;
 }
 
@@ -23,26 +23,26 @@ canvas {
   left:530px;
   top: 150px;
   color: white; 
-  font-family: 'Dancing Script', cursive;
+  font-family: Serif;
   font-size: large;
 }
 
 select{
   font-size: 20px;
-  font-family:  'Dancing Script', cursive;
+  font-family: Serif;
   color: white;
   background-color: rosybrown;
 }
 
 button{
   font-size: 20px;
-  font-family:  'Dancing Script', cursive;
+  font-family: Serif;
   color: white;
   background-color: rosybrown;
 }
 
 .select-button{
-  font-family:  'Dancing Script', cursive;
+  font-family: Serif;
   color: white;
   background-color: rosybrown;
   font-size: 20px ;
@@ -62,7 +62,7 @@ button{
   position: absolute;
   left:530px;
   top: 240px;
-  font-family: 'Dancing Script', cursive;
+  font-family: Serif;
   font-size: large;
   color: white;
 }
