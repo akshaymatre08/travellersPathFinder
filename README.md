@@ -14,3 +14,5 @@ Step 2: For demo purpose I selected all cities
 Step 3: After many iterations we finally got a shortest route
 
 <img width="650" alt="all cities op" src="https://user-images.githubusercontent.com/92999927/138595260-1ce395a4-b5d3-4eb8-ad8b-867a2d4be060.png">
+
+Or you can see live demo at https://akshaymatre08.github.io/travellersPathFinder/
